@@ -1,9 +1,12 @@
 {
   "name": "express-locallibrary-tutorial",
   "version": "0.0.0",
+  "engines": {
+    "node": "12.18.2"
+  },
   "private": true,
   "scripts": {
-    "start": "node app.js",
+    "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www",
     "serverstart": "SET DEBUG=express-locallibrary-tutorial:* & npm run devstart"
   },
